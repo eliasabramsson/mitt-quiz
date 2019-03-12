@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <!-- Required meta tags -->
+  
+<meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Europquiz</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Europaquiz</h1>
+
+        <form id="quiz" name="quiz">
+
+            <div class="div1"><br>
+                <img src="img/sk.png" alt="" class="bild"><br>
+                <label>Vilket lands flagga är detta? </label>
+                <br><br>
+                <input type="text"  name="f1" placeholder="Vilket lands flagga?" size="35" title="Vilket lands flagga?" >
+                <br><br></div><br>
+
+
+                <div class="div1"><br>
+                    <label>Vilket av följande länder är inte medlem i EU? </label><br>
+                    <input type="radio" name="f2" value="Belgien"> Belgien <br>
+                    <input type="radio" name="f2" value="Portugal"> Portugal <br>
+                    <input type="radio" name="f2" value="Norge"> Norge <br><br></div><br>
+
+
+                    <div class="div1"><br>
+                     <label>Vad heter huvudstaden i Bosnien & Hercegovina? </label><br>
+                     <input type="radio" name="f3" value="Ljubljana"> Ljubljana <br>
+                     <input type="radio" name="f3" value="Sarajevo"> Sarajevo <br>
+                     <input type="radio" name="f3" value="Belgrad"> Belgrad <br><br></div><br>
+
+
+                     <div class="div1"><br>
+                        <label>Vilket land är störst till yta i Europa? (Ej Ryssland) </label>
+                        <br>
+                        <input type="text"  name="f4" placeholder="Störst yta" size="35" title="Störst yta" >
+                        <br><br></div><br>
+
+                        <div class="div1"><br>
+                         <label>Vilket land har gränser mot både Frankrike och Österike? </label><br>
+                         <input type="radio" name="f5" value="Schweiz">Schweiz <br>
+                         <input type="radio" name="f5" value="Luxemburg">Luxemburg <br>
+                         <input type="radio" name="f5" value="Monaco">Monaco <br><br></div><br>
+
+
+                         <div class="div1"><br>
+                             <label>I vilket land ligger EU-parlamentets huvudkontor? </label><br>
+                             <input type="radio" name="f6" value="Frankrike">Frankrike <br>
+                             <input type="radio" name="f6" value="Belgien">Belgien <br>
+                             <input type="radio" name="f6" value="Tyskland">Tyskland <br><br></div><br>
+
+
+                             <div class="div1"><br>
+                                <label>Vilket år begärde den brittiska regeringen efter en folkomröstning utträde ur EU? </label>
+                                <br>
+                                <input type="text"  name="f7" placeholder="Vilket år?" size="35" title="Vilket år?" >  <br><br></div><br>
+
+                                <div class="div1"><br>
+                                  <label>Vad heter den största fotbollsturneringen för klubblag i Europa? </label><br>
+                                  <input type="radio" name="f8" value="europaleague"> Europa League <br>
+                                  <input type="radio" name="f8" value="europeiskamästerskapet"> Europeiska mästerskapet <br>
+                                  <input type="radio" name="f8" value="championsleague"> Champions League <br><br></div><br>
+
+
+                                  <div class="div1"><br>
+                                      <label>Hur många invånare har Europa ungefär? (2016) </label><br>
+                                      <input type="radio" name="f9" value="740"> 740 miljoner <br>
+                                      <input type="radio" name="f9" value="540"> 540 miljoner <br>
+                                      <input type="radio" name="f9" value="1,2"> 1,2 miljarder <br><br></div><br>
+
+
+                                      <div class="div1"><br>
+                                        <label>Vilket land har flest invånare i Europa? (Ej Ryssland) </label>
+                                        <br>
+                                        <input type="text"  name="f10" placeholder="Flest invånare" size="35" title="Flest invånare" >  <br><br></div><br>
+
+                                        <input id="button" type="button" value="Se resultat" onclick="check();">
+
+                                    </form>
+
+                                    <div id="efterskickat">
+                                        <p id="resultat"></p>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                                <script src="js/javascript123.js"></script>
+                                <script src="js/bootstrap.js"></script>
+                            </body>
+                            </html>
